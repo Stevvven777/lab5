@@ -2,5 +2,8 @@
   "name": "lab5",
   "top": "game",
   "sources": ["game.v", "display.v", "comparator.v"],
-  "constraints": "game.xdc"
+  "testbench": "game_tb.v",
+  "sim_top": "game_tb",
+  "constraints": "game.xdc",
+  "wave_file": "build/lab5.vcd"
 }
