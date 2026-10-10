@@ -1,0 +1,6 @@
+{
+  "name": "lab5",
+  "top": "game",
+  "sources": ["game.v", "display.v", "comparator.v"],
+  "constraints": "game.xdc"
+}
